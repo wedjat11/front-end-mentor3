@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-pattern-bottom {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.bg-pattern-top {
+    position: fixed;
+    bottom: 40%;
+    right: 50%;
+    z-index: -1;
+}
+
+.container {
+    height: 370px;
+    width: 350px;
+    background: white;
+    border-radius: 20px;
+}
+
+.top {
+    border-radius: 20px 20px 0 0;
+    width: 350px;
+}
+
+.photo {
+    position:relative;
+    display: block;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    bottom: 16%
+}
+
+.name-loc {
+    position: relative;
+    bottom: 10%;
+}
+
+.stats {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 1rem;
+}
+
+.stats div {
+    text-align: center;
+    width: 6rem;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+    padding: 5px;
+}
+
+.city {
+    color:hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+    padding: 5px;
+}
+
+.attribution {
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    width: 320px;
+    margin-left: -160px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    bottom: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+hr {
+    position: relative;
+    color: hsla(230, 4%, 67%, 0.9);
+    bottom: 4%
+}
